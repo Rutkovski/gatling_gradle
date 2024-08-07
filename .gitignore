@@ -1,0 +1,205 @@
+##############################
+## Java
+##############################
+.mtj.tmp/
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+hs_err_pid*
+replay_pid*
+
+##############################
+## Maven
+##############################
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+pom.xml.bak
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+##############################
+## Gradle
+##############################
+bin/
+build/
+.gradle
+.gradletasknamecache
+gradle-app.setting
+!gradle-wrapper.jar
+
+##############################
+## IntelliJ
+##############################
+out/
+.idea/
+.idea_modules/
+*.iml
+*.ipr
+*.iws
+
+##############################
+## Eclipse
+##############################
+.settings/
+bin/
+tmp/
+.metadata
+.classpath
+.project
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.loadpath
+.factorypath
+
+##############################
+## NetBeans
+##############################
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+nb-configuration.xml
+
+##############################
+## Visual Studio Code
+##############################
+.vscode/
+.code-workspace
+
+##############################
+## OS X
+##############################
+.DS_Store
+
+##############################
+## Miscellaneous
+##############################
+*.log
+#
+# Are you tempted to edit this file?
+#
+# First consider if the changes make sense for all,
+# or if they are specific to your workflow/system.
+# If it is the latter, you can augment this list with
+# entries in .git/info/excludes
+#
+# see also test/files/.gitignore
+#
+
+#
+# JARs aren't checked in, they are fetched by sbt
+#
+/lib/*.jar
+/test/files/codelib/*.jar
+/test/files/lib/*.jar
+/test/files/speclib/instrumented.jar
+/tools/*.jar
+
+# Developer specific properties
+/build.properties
+/buildcharacter.properties
+
+# might get generated when testing Jenkins scripts locally
+/jenkins.properties
+
+# target directory for build
+/build/
+
+# other
+/out/
+/bin/
+/sandbox/
+
+# intellij
+/src/intellij*/*.iml
+/src/intellij*/*.ipr
+/src/intellij*/*.iws
+**/.cache
+/.idea
+/.settings
+
+# vscode
+/.vscode
+
+# Standard symbolic link to build/quick/bin
+/qbin
+
+# sbt's target directories
+/target/
+/project/**/target/
+/test/macro-annot/target/
+/test/files/target/
+/test/target/
+/build-sbt/
+local.sbt
+jitwatch.out
+
+# Used by the restarr/restarrFull commands as target directories
+/build-restarr/
+/target-restarr/
+
+# metals
+.metals
+.bloop
+project/**/metals.sbt
+
+.bsp
+.history
+# idea conf files
+.idea
+*.iml
+*.ipr
+*.iws
+
+# sbt
+.bsp/sbt.json
+
+# building
+target
+build
+null
+tmp
+temp
+dist
+test-output
+build.log
+.jvmopts
+
+# misc
+.DS_Store
+*~
+
+#Python
+*.pyc
+
+# project files to ignore
+/gatling-bundle/src/main/assembly/assembly-structure/results/*
+!/results/.gitkeep
+
+untracked-*
+
+highcharts.js
+highstock.js
+theme.js
+
+#Generated and copied config files
+gatling.conf
+recorder.conf
+gatling-akka.conf
+logback.xml
+gatling-compiler/src/main/resources/gatling-defaults.conf
+gatling-version.properties
+version.sbt
